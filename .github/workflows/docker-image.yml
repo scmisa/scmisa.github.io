@@ -28,6 +28,3 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: |
-            scmisa/{docker_repository}:${{ github.sha }}
-            scmisa/{docker_repository}:latest
