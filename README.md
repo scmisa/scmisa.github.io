@@ -1,3 +1,5 @@
+# I'm not working in that project anymore, i just save the nextjs/react app to github try some github actions and docker
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
