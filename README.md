@@ -19,3 +19,6 @@ Running my app locally in container
 
 
 ### This is going to be my personal website/portfolio/CV
+- learning NEXT.js
+- learning React.js
+- learning WebDev
