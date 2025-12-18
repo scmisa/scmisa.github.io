@@ -1,5 +1,5 @@
 ---
-title: Studying Rust: My Journey into Safe and Efficient Programming
+title: "Studying Rust: My Journey into Safe and Efficient Programming"
 tags: [introduction, rust, programming]
 ---
 
