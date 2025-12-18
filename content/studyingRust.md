@@ -1,0 +1,7 @@
+---
+title: Studying Rust: My Journey into Safe and Efficient Programming
+tags: [introduction, rust, programming]
+---
+
+Rust has been gaining significant traction in the programming community for its focus on safety, performance, and concurrency. As a student eager to expand my programming skills, I decided to embark on a journey to learn Rust and explore its unique features. I was particularly drawn to Rust's ownership model, which promises memory safety without a garbage collector. This intrigued me as it offers a different approach to resource management compared to language like C. Like *you can have fast and safe code at the same time*. While I'm more familiar with languages like
+Python and JavaScript, I was excited to dive into a systems programming language that emphasizes both speed and safety. But it is tough to learn at the beginning. Also I'm a student so I have limited time to study it and study other languages this semester like C# and Assembly *I will do a separate post about that*. So I deep dive into [Rust Book](https://doc.rust-lang.org/book/) and [Rust by Example](https://doc.rust-lang.org/rust-by-example/) to get a solid foundation and started doing small exercises using [Rustlings](https://rustlings.rust-lang.org/) to practice what I've learned.
