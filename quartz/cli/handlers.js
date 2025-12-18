@@ -556,6 +556,8 @@ export async function handleSync(argv) {
   console.log(`\n${styleText(["bgGreen", "black"], ` Quartz v${version} `)}\n`)
   console.log("Backing up your content")
 
+  const currentBranch = execSync("git rev-parse --abbrev-ref HEAD").toString().trim()
+
   if (argv.commit) {
     const contentStat = await fs.promises.lstat(contentFolder)
     if (contentStat.isSymbolicLink()) {
@@ -593,7 +595,7 @@ export async function handleSync(argv) {
       "Pulling updates from your repository. You may need to resolve some `git` conflicts if you've made changes to components or plugins.",
     )
     try {
-      gitPull(ORIGIN_NAME, QUARTZ_SOURCE_BRANCH)
+      gitPull(ORIGIN_NAME, currentBranch)
     } catch {
       console.log(styleText("red", "An error occurred above while pulling updates."))
       await popContentFolder(contentFolder)
@@ -604,7 +606,6 @@ export async function handleSync(argv) {
   await popContentFolder(contentFolder)
   if (argv.push) {
     console.log("Pushing your changes")
-    const currentBranch = execSync("git rev-parse --abbrev-ref HEAD").toString().trim()
     const res = spawnSync("git", ["push", "-uf", ORIGIN_NAME, currentBranch], {
       stdio: "inherit",
     })
