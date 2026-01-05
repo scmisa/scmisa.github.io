@@ -76,6 +76,11 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
+    Component.SidebarLinks({
+      links: {
+        "My CV": "/CV",
+      }
+    }),
     Component.Explorer(),
   ],
   right: [],
