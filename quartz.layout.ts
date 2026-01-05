@@ -38,6 +38,11 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
+    Component.SidebarLinks({
+      links: {
+        "My CV": "/CV",
+      }
+    }),
     Component.Explorer(),
   ],
   right: [

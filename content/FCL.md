@@ -1,6 +1,15 @@
 ---
 title: FCL - Four Crown League
-tags: [Website, FCL, Four Crown League, Stack, Rust, Leptos, Axum, PostgreSQL, SQLx, LAPS]
+tags:
+  - Website
+  - FCL
+  - Stack
+  - Rust
+  - Leptos
+  - Axum
+  - PostgreSQL
+  - SQLx
+  - LAPS
 ---
 
 Hi there! In this post, I want to share my experience working on the [Four Crown League (FCL) website](https://fourcrownleague.com), a project that has been both challenging and rewarding. FCL is a competitive gaming league that brings together players from around the world to compete in various games. The website serves as the central hub for all league activities, including player registrations, match scheduling, and live score updates. It was built *vibecoded* on a MERN stack (MongoDB, Express.js, React, Node.js). So I decided to rewrite/build it from scratch using Rust both in the backend and frontend. Stack I used is: LAPS - [Leptos](https://leptos.dev/), Axum, PostgreSQL, SQLx. Leptos is a full-stack web framework for building web applications in Rust. It allows you to write both client-side and server-side code in Rust, providing a seamless development experience. Axum is a web application framework *made by [tokio.rs](https://tokio.rs/) developers* for building APIs in Rust, known for its performance and type safety. PostgreSQL is a powerful, open-source relational database system that I used to store all the data for the FCL website. SQLx is an async, pure Rust SQL crate that provides compile-time checked queries, making it easier to work with databases in Rust.
