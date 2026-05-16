@@ -18,3 +18,5 @@ I also have been busy with school, since I have to do several projects and assig
 ![FCL Business Card Back](./images/wizytowka2Strona.png)
 ![FCL Leaflet](./images/ulotkaA6.png)
 ![FCL Leaflet Back](./images/ulotkaA6tyl.png)
+
+Those are some of the graphics I designed for the FCL, mostly done in Photoshop, for a grade at University, but I also wanted to do it for the FCL, since I thought it would be a good idea to have some graphics for the website and for the FCL in general. I hope you like them! I will try to post more often now that I have more free time, and I will also try to post more about my design process and the tools I use, such as Photoshop, Illustrator, and InDesign. I will also try to post more about my school projects and assignments, since I think it would be interesting to share my work and my progress with you all. Thank you for reading, and I hope you have a great day!
